@@ -32,3 +32,4 @@ H:\Primary Workplace\visualProgramming\project\Go2Event\Go2Event\obj\Debug\net8.
 H:\Primary Workplace\visualProgramming\project\Go2Event\Go2Event\obj\Debug\net8.0\Go2Event.pdb
 H:\Primary Workplace\visualProgramming\project\Go2Event\Go2Event\obj\Debug\net8.0\Go2Event.genruntimeconfig.cache
 H:\Primary Workplace\visualProgramming\project\Go2Event\Go2Event\obj\Debug\net8.0\ref\Go2Event.dll
+H:\Primary Workplace\visualProgramming\project\Go2Event\Go2Event\obj\Debug\net8.0\Go2Event.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DHP9FBoH3Gm9zPK8YAJoh8CA7MLafWusQd53j7aTqGE=",
+  "Hash": "i9n0nD6L2kvpcXhIBRc1xdduNwLTAByzgAFXXVOeQqE=",
   "Source": "Go2Event",
   "BasePath": "_content/Go2Event",
   "Mode": "Default",
@@ -1446,7 +1446,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:16:25 GMT"
+          "Value": "Thu, 27 Mar 2025 11:36:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1483,7 +1483,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 11:16:25 GMT"
+          "Value": "Thu, 27 Mar 2025 11:36:07 GMT"
         },
         {
           "Name": "Cache-Control",
