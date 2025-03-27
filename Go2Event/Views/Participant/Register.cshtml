@@ -1,0 +1,30 @@
+﻿@{
+	ViewData["Title"] = "Register";
+}
+
+<div class="box">
+	<h2>Register as a Participant. Enter details.</h2>
+	<form>
+		<input type="text" class="button2" placeholder="Full Name" />
+		
+		<div class="button2">
+			<label class="makegrey">Date of Birth [	<input type="Date" class="nodesign" /> ]
+			</label>
+			
+		</div>
+		
+		<div class="button2">
+			<label>
+				<input type="radio" name="gender" value="male" checked> Male
+			</label>
+			<label>
+				<input type="radio" name="gender" value="female"> Female
+			</label>
+		</div>	
+
+		<input type="Password" class="button2" placeholder="Password" />
+		
+		<input type="submit" class="button3" value="Register" />
+	</form>
+	<h2>Already have an account? <a asp-controller="Participant" asp-action="Login" class="h2a">Login Now.</a></h2>
+</div>

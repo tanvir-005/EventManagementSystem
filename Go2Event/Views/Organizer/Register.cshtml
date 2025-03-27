@@ -1,0 +1,25 @@
+﻿@{
+	ViewData["Title"] = "Register";
+}
+
+<div class="box">
+	<h2>Register as an Organizer. Enter details.</h2>
+	<form>
+		<input type="text" class="button2" placeholder="Organization Name" />
+		<input type="text" class="button2" placeholder="Address" />
+		
+		<div class="button2">
+			<label>
+				<input type="radio" name="type" value="govt" checked> Government
+			</label>
+			<label>
+				<input type="radio" name="type" value="non-govt"> Non-Government
+			</label>
+		</div>	
+		
+		<input type="Password" class="button2" placeholder="Password" />
+
+		<input type="submit" class="button3" value="Register" />
+	</form>
+	<h2>Already have an account? <a asp-controller="Organizer" asp-action="Login" class="h2a">Login Now.</a></h2>
+</div>

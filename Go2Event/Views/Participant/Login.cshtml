@@ -1,0 +1,13 @@
+﻿@{
+	ViewData["Title"] = "Login";
+}
+
+<div class="box">
+	<h2>Log in as a Participant. Enter your credentials.</h2>
+	<form>
+		<input type="text" class="button2" placeholder="Username" />
+		<input type="password" class="button2" placeholder="Password" />
+		<input type="submit" class="button3" value="Log in" />
+	</form>
+	<h2>Don't have an account? <a asp-controller="Participant" asp-action="Register" class="h2a">Register Now.</a></h2>
+</div>

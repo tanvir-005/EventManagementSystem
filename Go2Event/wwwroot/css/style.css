@@ -1,0 +1,171 @@
+﻿:root {
+    --white: #F4FFF8;
+    --black: #080C0A;
+    --red: #B80C09;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial';
+    background-color: var(--white);
+}
+
+header{
+    background-color: var(--black);
+    display: flex;
+    padding: 15px;
+}
+
+.homebutton {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.homebutton:hover {
+    text-decoration: dotted underline;
+}
+
+.button {
+    display: block;
+    margin-left: 30px;
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: none;
+    height: 30px;
+    width: auto;
+    padding: 0 25px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+footer{
+    background-color: var(--black);
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: var(--white);
+}
+
+footer a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.box {
+    width: 50%;
+    background-color: var(--red);
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+.box h1{
+    margin: 0;
+    padding: 15px;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-size: 30px;
+}
+
+.box p{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    color: var(--white);
+}
+
+.button2{
+    background-color: var(--black);
+    color: var(--white);
+    display: block;
+    width: 60%;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto;
+}
+
+.button3{
+    background-color: var(--white);
+    color: var(--black);
+    display: block;
+    width: 60%;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+input{
+    border: none;
+    padding: 0;
+}
+
+h2{
+    margin: 0 0 50px 0;
+    padding: 0;
+    text-align: center;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.h2a {
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--black);
+}
+
+.nodesign{
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.button2 label input[value="female"] {
+    margin-left: 20px;
+}
+
+.makegrey{
+    font-weight: normal;
+    color: grey;
+    font-size: 13px;
+}
+
+.h2{
+    margin: 20px 0;
+}
